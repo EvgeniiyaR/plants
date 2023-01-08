@@ -535,9 +535,13 @@ html {
 	background-color: white;
 	margin: 40px auto;
 	width: 1440px;
+}
+
+.footer__wrapper {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 0 109px;
 }
 
 .footer__data {
@@ -545,12 +549,12 @@ html {
 	gap: 20px;
 	list-style: none;
 	margin: 0;
-	padding: 0 0 0 109px;
 	font-family: 'Inter', sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 50px;
+	padding: 0;
 }
 
 .footer__link {
@@ -575,5 +579,5 @@ html {
 	gap: 20px;
 	list-style: none;
 	margin: 0;
-	padding: 0 109px 0;
+	padding: 0;
 }
