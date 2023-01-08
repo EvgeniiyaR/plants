@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@300;400;700&display=swap');
+
+html {
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+}
+
+.header {
+	background-color: #EDF2EC;
+	width: 1440px;
+	margin: 0 auto;
+}
+
+.header__navbar {
+	padding: 42px 109px 42px 111px;
+	margin: 0 auto;
+	width: 1220px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header__logo {
+	display: flex;
+}
+
+.header__logo-link {
+	margin: 0;
+	font-family: 'Inika', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.header__nav {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	list-style: none;
+	gap: 46px;
+	justify-content: space-between;
+}
+
+.header__link {
+	text-decoration: none;
+	color: black;
+	font-family: 'Inika', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 50px;
+}
+
+.header__link_active {
+	color: #E06733;
+	font-weight: 700;
+}
+
+.welcome {
+	padding: 98px 109px 94px;
+	display: flex;
+	justify-content: flex-end;
+	background-image: url(image/leafs.png);
+	background-repeat: no-repeat;
+	background-position: top 62px left 109px;
+	background-size: 448.8px 407.36px;
+}
+
+.welcome__card {
+	display: flex;
+	flex-direction: column;
+	gap: 42px;
+}
+
+.welcome__title {
+	margin: 0;
+	max-width: 549px;
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 45px;
+	line-height: 50px;
+	color: #717171;
+}
+
+.welcome__title_color_green {
+	color: #499A18;
+}
+
+.welcome__paragraph {
+	margin: 0;
+	max-width: 525.44px;
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 35px;
+	color: #636060;
+}
+
+.welcome__button {
+	background-color: #EDF2EC;
+	padding: 14px 27px;
+	border: 2px solid #E06733;
+	border-radius: 10px;
+	max-width: 162px;
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+
+.welcome__button:hover {
+	background-color: #E06733;
+	color: white;
+	transition-duration: 1s;
+}
+
+.about {
+	background-color: white;
+	width: 1440px;
+	margin: 0 auto;
+	height: 666px;
+}
+
+.about__section {
+	width: 1222px;
+	padding: 161px 109px 155px;
+	background-image: url(image/houseplant1.png);
+	background-repeat: no-repeat;
+	background-position: top 93px right 109px;
+	background-size: 464px 479px;
+}
+
+.about__card {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	height: 350px;
+}
+
+.about__title {
+	margin: 0;
+	font-family: 'Inika', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 52px;
+	color: #499A18;
+	max-width: 463px;
+}
+
+.about__title_color_orange {
+	color: #E06733;
+}
+
+.about__paragraph {
+	margin: 0;
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	color: #636060;
+	max-width: 605px;
+}
+
+.service {
+	background-color: #EDF2EC;
+	width: 1440px;
+	margin: 0 auto;
+	height: 1300px;
+}
+
+.service__content {
+	width: 1222px;
+	padding: 40px 109px 90px;
+	display: flex;
+	align-items: center;
+}
+
+.service__title {
+	margin: 0;
+	font-family: 'Inika', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 52px;
+	color: #499A18;
+	max-width: 306px;;
+}
+
+.service__btns {
+	display: flex;
+	gap: 38px;
+	padding: 0 0 0 142px;
+}
+
+.service__btn {
+	background-color: #EDF2EC;
+	border: 1px solid #E06733;
+	border-radius: 5px;
+	padding: 12px 40px;
+	width: 161px;
+	font-family: 'Inika', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 26px;
+	color: #E06733;
+}
+
+.service__btn_active {
+	background-color: #E06733;
+	color: white;
+}
+
+.service__services {
+	width: 1222px;
+	padding: 0 109px 121px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 55px;
+	list-style: none;
+	margin: 0;
+}
+
+.service__service-item {
+	width: 330px;
+	margin: 0;
+	padding: 0;
+}
+
+.service__rectangle {
+	border: 1px solid #E3E1D5;
+	border-radius: 0px 0px 20px 20px;
+	padding: 10px 0 36px;
+	margin: -4px 0 0;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.service__subtitle {
+	margin: 0;
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: #E06733;
+}
+
+.service__paragraph {
+	margin: 0;
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: #717171;
+	text-align: center;
+}
+
+.prices {
+	background-color: white;
+	width: 1440px;
+	margin: 0 auto;
+}
+
+.prices__wrapper {
+	width: 1222px;
+	height: 560px;
+	padding: 0 109px;
+	display: flex;
+	justify-content: space-between;
+	background-image: url(image/leafs1.png);
+	background-repeat: no-repeat;
+	background-position: top 270.01px right 109px;
+}
+
+.prices__title {
+	padding: 40px 0 0;
+	margin: 0;
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 48px;
+	color: #000000;
+}
+
+.prices__card {
+	box-sizing: border-box;
+	border: 1px solid #E3E1D5;
+	border-radius: 20px;
+	width: 334px;
+	margin: 60px 0 128.98px;
+}
+
+.prices__items {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 34px 41px;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+	border: 0;
+}
+
+.prices__item:not(:focus){
+	box-sizing: border-box;
+	margin: 0;
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 20px;
+	color: #000000;
+	background-color: #EDF2EC;
+	border-radius: 20px;
+	padding: 16px 110px 16px 40px;
+	width: 250px;
+	background-image: url(image/accordion_btn1.svg);
+	background-repeat: no-repeat;
+	background-position: top 17px right 40px;
+}
+
+.prices__item_type_bas:not(:focus)::before {
+	content: 'Basics';
+}
+
+.prices__item_type_stand:not(:focus)::before {
+	content: 'Standard';
+}
+
+.prices__item_type_pro:not(:focus)::before {
+	content: 'Pro care';
+}
+
+.prices__item:focus::before {
+	content: none;
+}
+
+.prices__item_active {
+	display: none;
+}
+
+.prices__item:focus + .prices__item_active {
+	background-image: url(image/accordion_btn2.svg);
+	background-repeat: no-repeat;
+	background-position: top 17px right 40px;
+	background-color: #D6E7D2;
+	display: block;
+	margin: -34px 0 0;
+}
+
+.prices__subtitle {
+	margin: 0;
+	padding: 0 0 12px 0;
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 20px;
+	color: #000000;
+}
+
+.prices__paragraph {
+	margin: 0;
+	padding: 6px 0;
+	min-width: 169px;
+	border-top: 0.5px solid #AEA1A1;
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 10px;
+	line-height: 10px;
+	color: #717171;
+}
+
+.prices__price {
+	margin: 0;
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.prices__price_color_orange {
+	color: #E06733;
+}
+
+.prices__order {
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 20px;
+	color: #717171;
+	background: #FFFFFF;
+	border-radius: 10px;
+	border: 1px;
+	padding: 3px 20px;
+	margin: 12px 0 0;
+}
+
+.prices__contact {
+	display: flex;
+	flex-direction: column;
+	gap: 38px;
+	align-items: flex-end;
+}
+
+.prices__second-title {
+	padding: 40px 0 0;
+	margin: 0;
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 50px;
+	text-align: right;
+	color: #000000;
+	max-width: 452px;
+}
+
+.prices__second-title_color_green {
+	color: #499A18;
+}
+
+.prices__button {
+	border: 1px solid #E06733;
+	border-radius: 5px;
+	padding: 12px 33.96px 12px 30.04px;
+	background-color: white;
+	justify-self: flex-end;
+	font-family: 'Inika', serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 26px;
+	color: #E06733;
+}
+
+.prices__button:hover {
+	background-color: #E06733;
+	color: white;
+	transition-duration: 1s;
+}
+
+.contacts {
+	width: 1440px;
+	margin: 0 auto;
+	background-color: #EDF2EC;
+	background-image: url(image/contact_woman1.png);
+	background-repeat: no-repeat;
+	background-position: bottom 0 left 109px;
+	display: flex;
+	flex-direction: column;
+	gap: 37px;
+	height: 550px;
+}
+
+.contacts__title {
+	padding: 60px 0 0;
+	margin: 0;
+	color: #499A18;
+	font-family: 'Inika', serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 52px;
+	text-align: center;
+}
+
+.contacts__select {
+	width: 450px;
+	align-self: flex-end;
+	margin: 0 109px 0 0;
+	border-radius: 0px;
+	padding: 5px 226px 5px 20px;
+	background: #D6E7D2;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	background-image: url(image/accordion_btn.svg);
+	background-repeat: no-repeat;
+	background-position: top 17px right 35px;
+	border: none;
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 40px;
+	letter-spacing: 0.05em;
+	color: #717171;
+}
+
+.contacts__select:focus {
+	background-image: url(image/arrow.svg);
+	background-repeat: no-repeat;
+	background-position: top 17px right 35px;
+	background-color: #C1E698;
+	outline: none;
+	box-shadow: none;
+}
+
+.contacts__option {
+	background-color: #DCE9D9;
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 40px;
+	letter-spacing: 0.05em;
+	color: #499A18;
+	padding: 12px 0 12px 41px;
+	outline: none;
+	border: 0;
+	min-height: 234px;
+}
+
+.footer {
+	background-color: white;
+	margin: 40px auto;
+	width: 1440px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__data {
+	display: flex;
+	gap: 20px;
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 109px;
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 50px;
+}
+
+.footer__link {
+	text-decoration: none;
+	color: #000000;
+}
+
+.footer__rs {
+	margin: 0;
+	text-decoration: none;
+	color: black;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 50px;
+	color: #000000;
+}
+
+.footer__social {
+	display: flex;
+	gap: 20px;
+	list-style: none;
+	margin: 0;
+	padding: 0 109px 0;
+}
