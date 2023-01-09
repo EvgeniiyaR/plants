@@ -12,7 +12,7 @@ html {
 }
 
 .header__navbar {
-	padding: 42px 109px 42px 111px;
+	padding: 33px 109px 50px 105px;
 	margin: 0 auto;
 	width: 1220px;
 	display: flex;
@@ -40,7 +40,7 @@ html {
 	padding: 0;
 	display: flex;
 	list-style: none;
-	gap: 46px;
+	gap: 49px;
 	justify-content: space-between;
 }
 
@@ -60,7 +60,7 @@ html {
 }
 
 .welcome {
-	padding: 98px 109px 94px;
+	padding: 91px 114px 94px;
 	display: flex;
 	justify-content: flex-end;
 	background-image: url(image/leafs.png);
@@ -72,7 +72,7 @@ html {
 .welcome__card {
 	display: flex;
 	flex-direction: column;
-	gap: 42px;
+	gap: 45px;
 }
 
 .welcome__title {
@@ -103,10 +103,10 @@ html {
 
 .welcome__button {
 	background-color: #EDF2EC;
-	padding: 14px 27px;
+	padding: 10px 25px 10px 20px;
 	border: 2px solid #E06733;
 	border-radius: 10px;
-	max-width: 162px;
+	width: 158px;
 	font-family: 'Inter', sans-serif;
 	font-style: normal;
 	font-weight: 400;
@@ -130,10 +130,10 @@ html {
 
 .about__section {
 	width: 1222px;
-	padding: 161px 109px 155px;
+	padding: 161px 100px 155px;
 	background-image: url(image/houseplant1.png);
 	background-repeat: no-repeat;
-	background-position: top 93px right 109px;
+	background-position: top 92px right 100px;
 	background-size: 464px 479px;
 }
 
@@ -179,7 +179,7 @@ html {
 
 .service__content {
 	width: 1222px;
-	padding: 40px 109px 90px;
+	padding: 43px 102px 79px;
 	display: flex;
 	align-items: center;
 }
@@ -222,7 +222,7 @@ html {
 
 .service__services {
 	width: 1222px;
-	padding: 0 109px 121px;
+	padding: 0 102px 121px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -278,7 +278,7 @@ html {
 .prices__wrapper {
 	width: 1222px;
 	height: 560px;
-	padding: 0 109px;
+	padding: 0 100px;
 	display: flex;
 	justify-content: space-between;
 	background-image: url(image/leafs1.png);
@@ -308,7 +308,7 @@ html {
 .prices__items {
 	box-sizing: border-box;
 	margin: 0;
-	padding: 34px 41px;
+	padding: 31px 41px;
 	list-style: none;
 	display: flex;
 	flex-direction: column;
@@ -464,7 +464,7 @@ html {
 	background-color: #EDF2EC;
 	background-image: url(image/contact_woman1.png);
 	background-repeat: no-repeat;
-	background-position: bottom 0 left 109px;
+	background-position: bottom 0 left 100px;
 	display: flex;
 	flex-direction: column;
 	gap: 37px;
@@ -472,7 +472,7 @@ html {
 }
 
 .contacts__title {
-	padding: 60px 0 0;
+	padding: 60px 20px 0 0;
 	margin: 0;
 	color: #499A18;
 	font-family: 'Inika', serif;
@@ -486,7 +486,7 @@ html {
 .contacts__select {
 	width: 450px;
 	align-self: flex-end;
-	margin: 0 109px 0 0;
+	margin: 0 117px 0 0;
 	border-radius: 0px;
 	padding: 5px 226px 5px 20px;
 	background: #D6E7D2;
@@ -541,7 +541,7 @@ html {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0 109px;
+	padding: 0 115px 0 103px;
 }
 
 .footer__data {
@@ -572,6 +572,7 @@ html {
 	font-size: 20px;
 	line-height: 50px;
 	color: #000000;
+	padding: 0 0 0 15px;
 }
 
 .footer__social {
