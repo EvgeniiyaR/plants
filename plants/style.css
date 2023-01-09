@@ -65,7 +65,7 @@ html {
 	justify-content: flex-end;
 	background-image: url(image/leafs.png);
 	background-repeat: no-repeat;
-	background-position: top 62px left 109px;
+	background-position: top 57px left 100px;
 	background-size: 448.8px 407.36px;
 }
 
@@ -283,7 +283,7 @@ html {
 	justify-content: space-between;
 	background-image: url(image/leafs1.png);
 	background-repeat: no-repeat;
-	background-position: top 270.01px right 109px;
+	background-position: top 270.01px right 90px;
 }
 
 .prices__title {
