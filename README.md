@@ -1,1 +1,23 @@
-# plants - https://evgeniiyar.github.io/plants/plants/
+# Plants #
+
+Интернет-магазин по предложению услуг садоводства.
+
+---
+
+Реализовано:
+* верстка по макету в Figma;
+* отзывчивая вёрстка;
+* появление burger menu при mobile(380px) разрешении;
+* при нажатии на кнопки: Gardens, Lawn, Planting происходит смена фокуса на услугах в разделе service;
+* при нажатии на dropdown кнопку в секции prices появляется описание тарифов цен;
+* в разделе contacts реализован кастомный select с выбором городов.
+
+При верстке веб-сайта применены технологии:
+* HTML;
+* CSS (Flex, Grid);
+* JavaScript;
+* Методология БЭМ.
+
+---
+
+Ссылка на проект: https://evgeniiyar.github.io/plants/plants/
